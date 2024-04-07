@@ -1,0 +1,104 @@
+
+.become-acc-card{
+    background-color: #ECF9FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 5%;
+   
+}
+@media screen and (max-width:768px) {
+    .become-acc-card{
+        flex-direction: column;
+    }
+}
+.acc-card-1{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+ }
+.acc-card-2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px; 
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    border-top: #303481 solid 2px;
+}
+@media screen and (max-width:768px) {
+    .acc-card-1{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .acc-card-2{
+        width: 100%;
+    }
+}
+.acca-heading{
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.acca-desc{
+    font-size: 15px;
+    line-height: 25px;
+}
+.acc-btn-1{
+    background-color: #303481;
+    color :#ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.acc-btn-2{
+    color :#ffffff;
+    background-color: #FF4646;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.card-2-text{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.input{
+    border: 1px solid #C9CCD5;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    outline: none;
+    background-color: #F8F6F4;
+}
+.call-btn{
+    background-color: #303481;
+    color: #ffffff;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+ }
+
+ .trigger-button{
+    background-color: #303481;
+    border: none;
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+ }
+ .popup-content{
+    border: none;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+ }

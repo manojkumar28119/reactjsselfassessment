@@ -1,0 +1,41 @@
+
+.wt-will-u-learn-card{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.learnings-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.learning-feature-card{
+    width: 220px;
+    background-color: #ECF9FF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+.list-items{
+    font-size: 12px;
+    padding-right: 10px;
+    flex-grow: 1;
+    line-height: 20px;
+}
+.learings-text{
+    background-color: #303481;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px;
+    margin: 0px;
+    font-size: 12px;
+}
+.learings-text1{
+    padding: 12px;
+    font-size: 15px;
+}
